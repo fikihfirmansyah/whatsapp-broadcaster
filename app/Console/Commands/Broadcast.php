@@ -5,14 +5,14 @@ namespace App\Console\Commands;
 use App\Models\Message;
 use Illuminate\Console\Command;
 
-class BroadcastTwoMinutes extends Command
+class Broadcast extends Command
 {
     /**
      * The name and signature of the console command.
      *
      * @var string
      */
-    protected $signature = 'broadcast:twominutes';
+    protected $signature = 'broadcast';
 
     /**
      * The console command description.
